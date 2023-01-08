@@ -350,7 +350,7 @@ public class MainActivity extends AppCompatActivity {
 
         String urlBase ="https://maps.googleapis.com/maps/api/staticmap?";
 
-        String apiKey = "AIzaSyAQCrR8SxPRznlDMyLgxoK1iuCAdXAOBz0";
+        String apiKey = "";
 
         String atributtes = "center=" + location.getLatitud() + "," + location.getLongitud() + "&zoom=16&size=750x450&markers=color:blue%7C"+location.getLatitud()+","+location.getLongitud()+"&key="+apiKey;
 
